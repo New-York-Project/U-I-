@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,58 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
 </head>
+
+
 <body>
-        <div class="jumbotron">
-                <div class="container">
-                  <h1 class="display-4"><img src="assets/css/newspaper.png"> New York Times Search</h1>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4"><img src="assets/css/newspaper.png"> New York Times Search</h1>
+      </div>
+    </div>
+    <!-----------------------------Header Goes here-->
+    <div class="container">
+
+
+
+
+        <div class="container border">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Search Parameters</li>
+                </ol>
+            </nav>
+
+
+
+
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Search Term</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
-              </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Start Year</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">End Year</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+            </form>
+
+        </div>
+
+        <button id="search">Search</button> <button id="cancel">Cancel</button>
     <script src="assets/javascript/app.js">
     </script>
 </body>
