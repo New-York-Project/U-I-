@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+img {
+    height: 50px;
+    width: 50px;
+    background-color: darkblue;
+}
